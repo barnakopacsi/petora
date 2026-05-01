@@ -1,57 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Petora Support</title>
-  <style>
-    body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      padding: 1em;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 0 auto;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1 {
-      margin-top: 2em;
-      margin-bottom: 0.5em;
-    }
-    p {
-      margin-bottom: 1.5em;
-      color: #666;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .footer {
-      margin-top: 3em;
-      padding-top: 1em;
-      border-top: 1px solid #ddd;
-      color: #999;
-      font-size: 0.9em;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Need help with Petora?</h1>
-  <p>
-    We’re happy to help. If you have any questions, feedback, or run into an issue,
-    please contact us at:
-  </p>
-  <p><a href="mailto:barnakopacsi@gmail.com">barnakopacsi@gmail.com</a></p>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <img class="logo-mark" src="svgviewer-output-3.svg" alt="Petora logo mark" />
+        <img class="logo-wordmark" src="Group-2.svg" alt="Petora" />
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="support.html">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="tcs.html">Terms</a>
+        <a href="licenses.html">Licenses</a>
+      </nav>
+    </header>
 
-  <div class="footer">
-    © 2026 Barna Martin Kopácsi. All rights reserved.
-    <br>
-    <a href="privacy-policy.html">Privacy Policy</a> |
-    <a href="tcs.html">Terms of Service</a> |
-    <a href="licenses.html" style="color:#333;">Licenses</a>
+    <section class="hero">
+      <h1>Need help with Petora?</h1>
+      <p>Questions, bugs, feedback — contact us anytime.</p>
+    </section>
+
+    <section class="card">
+      <h2>Email Support</h2>
+      <p><a href="mailto:barnakopacsi@gmail.com">barnakopacsi@gmail.com</a></p>
+    </section>
+
+    <footer class="footer">
+      © 2026 Barna Martin Kopácsi. All rights reserved.
+    </footer>
   </div>
 </body>
 </html>

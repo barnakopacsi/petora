@@ -26,7 +26,9 @@ body{
   width:34px;height:34px;display:block;
 }
 .logo-wordmark{
-  height:24px;display:block;
+  height:38px;
+  width:auto;
+  display:block;
 }
 .brand-wrap{display:flex;align-items:center;gap:10px}
 .nav{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}

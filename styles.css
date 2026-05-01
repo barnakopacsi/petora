@@ -26,9 +26,7 @@ body{
   width:34px;height:34px;display:block;
 }
 .logo-wordmark{
-  height:38px;
-  width:auto;
-  display:block;
+  height:24px;display:block;
 }
 .brand-wrap{display:flex;align-items:center;gap:10px}
 .nav{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
@@ -83,6 +81,7 @@ body{
   padding:18px;
   margin-bottom:12px;
 }
+.marketing-plus{margin-top:12px}
 .legal-block h2{margin:0 0 8px}
 .legal-block p,.legal-block li{color:var(--muted);line-height:1.65}
 .legal-block ul{margin:.25em 0 0 1.2em}

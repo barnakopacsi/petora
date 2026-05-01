@@ -1,82 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Petora - Pet Care Companion</title>
-  <style>
-    body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      padding: 1em;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h1 {
-      margin-top: 2em;
-      margin-bottom: 0.5em;
-    }
-    p {
-      margin-bottom: 2em;
-      color: #666;
-    }
-    .links {
-      margin-top: 2em;
-    }
-    .link-item {
-      margin-bottom: 1.5em;
-    }
-    .link-item strong {
-      display: block;
-      margin-bottom: 0.3em;
-      font-size: 1.1em;
-    }
-    .link-item a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    .link-item a:hover {
-      text-decoration: underline;
-    }
-    .footer {
-      margin-top: 3em;
-      padding-top: 1em;
-      border-top: 1px solid #ddd;
-      color: #999;
-      font-size: 0.9em;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petora</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Petora</h1>
-  <p>Your pet care companion for nutrition, walks, weight, and health tracking.</p>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <img class="logo-mark" src="svgviewer-output-3.svg" alt="Petora logo mark" />
+        <img class="logo-wordmark" src="Group-2.svg" alt="Petora" />
+      </div>
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="tcs.html">Terms</a>
+        <a href="licenses.html">Licenses</a>
+      </nav>
+    </header>
 
-  <div class="links">
-    <div class="link-item">
-      <strong>Support</strong>
-      <p>Need help with Petora or have questions? <a href="support.html">Visit our Support page</a></p>
-    </div>
+    <section class="hero">
+      <h1>Everything your pet needs in one place</h1>
+      <p>Track nutrition, walks, weight, and health records with Petora.</p>
+    </section>
 
-    <div class="link-item">
-      <strong>Privacy Policy</strong>
-      <p>Learn how we collect, use, and protect your information. <a href="privacy-policy.html">Read Privacy Policy</a></p>
-    </div>
+    <section class="grid grid-2">
+      <article class="card">
+        <h2>Support</h2>
+        <p>Need help with Petora or found an issue?</p>
+        <a class="cta" href="support.html">Get Support</a>
+      </article>
 
-    <div class="link-item">
-      <strong>Terms of Service</strong>
-      <p>Review the terms for using Petora. <a href="tcs.html">Read Terms of Service</a></p>
-    </div>
+      <article class="card">
+        <h2>Privacy Policy</h2>
+        <p>Learn how we process and protect your data.</p>
+        <a class="cta" href="privacy-policy.html">Read Privacy Policy</a>
+      </article>
 
-    <div class="link-item">
-      <strong>Licenses</strong>
-      <p>View open-source licenses and acknowledgements used in Petora.
-        <a href="licenses.html">View Licenses</a>
-      </p>
-    </div>
-  </div>
+      <article class="card">
+        <h2>Terms of Service</h2>
+        <p>Review the terms for using Petora.</p>
+        <a class="cta" href="tcs.html">Read Terms</a>
+      </article>
 
-  <div class="footer">
-    © 2026 Barna Martin Kopácsi. All rights reserved.
+      <article class="card">
+        <h2>Open Source Licenses</h2>
+        <p>See third-party libraries and their licenses.</p>
+        <a class="cta" href="licenses.html">View Licenses</a>
+      </article>
+    </section>
+
+    <footer class="footer">
+      © 2026 Barna Martin Kopácsi. All rights reserved.
+    </footer>
   </div>
 </body>
 </html>
